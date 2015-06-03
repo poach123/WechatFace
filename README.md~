@@ -12,20 +12,20 @@
 
 ###POST提交Demo：
 
-    $data = array();
-    $curlobj = curl_init();
-    curl_setopt($curlobj, CURLOPT_URL, "http://how-old.net/Home/Analyze?isTest=False&source=&faceUrl=http://how-old.net/Images/faces2/scroll0012.jpg");
-    curl_setopt($curlobj, CURLOPT_USERAGENT,'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727;)');
-    curl_setopt($curlobj, CURLOPT_HEADER, 0);
-    curl_setopt($curlobj, CURLOPT_RETURNTRANSFER, 1);
-    curl_setopt($curlobj, CURLOPT_POST, 1);
-    curl_setopt($curlobj, CURLOPT_POSTFIELDS, $data);
-    curl_setopt($curlobj, CURLOPT_HTTPHEADER, array());
-    $rth = curl_exec($curlobj);
-    curl_close($curlobj);
+$data = array();
+$curlobj = curl_init();
+curl_setopt($curlobj, CURLOPT_URL, "http://how-old.net/Home/Analyze?isTest=False&source=&faceUrl=http://how-old.net/Images/faces2/scroll0012.jpg");
+curl_setopt($curlobj, CURLOPT_USERAGENT,'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727;)');
+curl_setopt($curlobj, CURLOPT_HEADER, 0);
+curl_setopt($curlobj, CURLOPT_RETURNTRANSFER, 1);
+curl_setopt($curlobj, CURLOPT_POST, 1);
+curl_setopt($curlobj, CURLOPT_POSTFIELDS, $data);
+curl_setopt($curlobj, CURLOPT_HTTPHEADER, array());
+$rth = curl_exec($curlobj);
+curl_close($curlobj);
 
 ###返回格式为json，结果如下：
-```json
+
 "{
     \"AnalyticsEvent\": \"[
         \\r\\n{
@@ -69,7 +69,6 @@
     ]
 }"
 
-```
 返回结果包括，人数、年龄、性别、还有人脸识别的位置（如顶图中黄颜色的框位置），可将Json结果转换为数组后使用。
 
 
@@ -80,15 +79,14 @@
 >face.php：展示具体效果
 >api.php：微信接口
 
-#### 1、api.php
+1、api.php
 
 获取微信用户发送图片的地址，微信服务器会给第三方传送$postObj->PicUrl;
 
 将地址作为face.php的url参数传入。
 
-#### 2、face.php
+2、face.php
 
-```php
 $img = $_get['url'];
 $data = array();
 $curlobj = curl_init();
@@ -101,7 +99,6 @@ curl_setopt($curlobj, CURLOPT_POSTFIELDS, $data);
 curl_setopt($curlobj, CURLOPT_HTTPHEADER, array());
 $rth = curl_exec($curlobj);
 curl_close($curlobj);
-```
 
 用js处理$rth结果，详情参考face.php。
 
