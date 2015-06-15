@@ -65,7 +65,61 @@ curl_close($curlobj);
 	var female = "http://weixin.dayibin.cn/addons/howold/template/mobile/gender-female.png";
 	var male = "http://weixin.dayibin.cn/addons/howold/template/mobile/gender-male.png";
 	
-	eval(function(p,a,c,k,e,d){e=function(c){return(c<a?"":e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--)d[e(c)]=k[c]||e(c);k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1;};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p;}('G g$=["\\y\\d\\x\\b","\\A\\Z\\p","\\B\\d\\E\\p\\v\\d","\\K\\m\\D\\M\\B\\p\\x\\d\\M\\b\\j\\j\\v\\b\\m\\z","\\k\\E\\p\\v\\v\\M\\B\\p\\x\\d\\M\\b\\j\\j\\v\\b\\m\\z",\'\\I\\q\\m\\Q\\J\\I\\k\\z\\p\\A\\J\\I\\m\\E\\D\\F\\k\\y\\x\\P\\L\',\'\\L\\F\\x\\v\\p\\k\\k\\P\',"\\J\\I\\/\\k\\z\\p\\A\\J","\\I\\/\\q\\m\\Q\\J","\\K\\p\\x\\1H\\D\\y\\j\\C\\A\\q\\M\\x\\j\\v\\j\\y","\\O\\1d\\X\\1p\\X\\1b\\1b",\'\\I\\q\\m\\Q\\F\\q\\p\\b\\p\\M\\w\\b\\E\\v\\P\\L\\b\\y\\C\\d\\L\\F\\x\\v\\p\\k\\k\\P\\L\\x\\w\\m\\v\\q\\F\\B\\p\\x\\d\\M\\b\\j\\j\\v\\b\\m\\z\\F\',\'\\F\\L\\F\\m\\q\\P\\L\',\'\\L\\Z\\J\',"\\v\\d\\B\\b","\\z\\R","\\b\\j\\z","\\z\\R","\\H\\m\\q\\b\\w","\\z\\R","\\w\\d\\m\\D\\w\\b","\\z\\R","\\K\\j\\y\\q\\d\\y","\\X\\z\\R\\F\\k\\j\\v\\m\\q\\F\\H\\w\\m\\b\\d","\\z\\j\\k\\m\\b\\m\\j\\A","\\p\\K\\k\\j\\v\\C\\b\\d","\\b\\j\\z","\\O","\\E\\p\\A\\C\\p\\v","\\O","\\k\\w\\j\\H","\\O\\B\\p\\x\\d\\k","\\I\\q\\m\\Q\\J\\I\\/\\q\\m\\Q\\J","\\O\\b\\w\\C\\E\\K\\A\\p\\m\\v","\\O\\b\\w\\C\\E\\K\\1a\\j\\A\\b\\p\\m\\A\\d\\y","\\I\\m\\E\\D\\Z\\J","\\k\\y\\x","\\k\\y\\x","\\O\\B\\p\\x\\d\\k"];G t=1q["\\z\\p\\y\\k\\d"](n);G T=t["\\1d\\p\\x\\d\\k"];1c=U(n,t,i,r,u,f){G o=g$[0]+N["\\y\\j\\C\\A\\q"](N["\\y\\p\\A\\q\\j\\E"]()*1n),e=S,c=g$[1],s,h,l,a;t!=S&&(c=N["\\y\\j\\C\\A\\q"](1o(t)));s=1r;i!=S&&i["\\b\\j\\1u\\j\\H\\d\\y\\1a\\p\\k\\d"]()===g$[2]&&(s=1v);h=f<=1s?g$[3]:g$[4];e=g$[5]+s+g$[6]+h+g$[7]+c+g$[8];$(e)["\\x\\k\\k"](g$[9],g$[10]);l=g$[11]+h+g$[12]+o+g$[13];$(l)["\\p\\z\\z\\d\\A\\q\\1t\\j"](u)["\\x\\k\\k"](g$[14],n["\\v\\d\\B\\b"]+g$[15])["\\x\\k\\k"](g$[16],n["\\b\\j\\z"]+g$[17])["\\x\\k\\k"](g$[18],n["\\H\\m\\q\\b\\w"]+g$[19])["\\x\\k\\k"](g$[1f],n["\\w\\d\\m\\D\\w\\b"]+g$[1g])["\\x\\k\\k"](g$[1h],g$[1l])["\\x\\k\\k"](g$[1m],g$[1k]);e!=S&&(a=g$[1j],$(g$[1i]+o)["\\b\\j\\j\\v\\b\\m\\z"]({1w:g$[1N],1M:!1e,1P:a,1I:e,1O:!1e}),$(g$[1J]+o)["\\b\\j\\j\\v\\b\\m\\z"](g$[1L]))};U a(){G n,t;G 1K=$(V);G W;G Y;1A($(g$[1x])["\\w\\b\\E\\v"](g$[1y]),n=$(g$[1G]),t=$(g$[1E]),T!=S){$(g$[1C])["\\p\\b\\b\\y"](g$[1D],n["\\p\\b\\b\\y"](g$[1F]))["\\v\\j\\p\\q"](U(){W=V["\\H\\m\\q\\b\\w"];Y=V["\\w\\d\\m\\D\\w\\b"];G i=n["\\w\\d\\m\\D\\w\\b"]()/Y,r=n["\\H\\m\\q\\b\\w"]()/W,u=n["\\j\\B\\B\\k\\d\\b"]()["\\v\\d\\B\\b"]-t["\\j\\B\\B\\k\\d\\b"]()["\\v\\d\\B\\b"],f=T["\\v\\d\\A\\D\\b\\w"];$["\\d\\p\\x\\w"](T,U(t,e){G s=e["\\B\\p\\x\\d\\1z\\d\\x\\b\\p\\A\\D\\v\\d"],l=e["\\p\\b\\b\\y\\m\\K\\C\\b\\d\\k"]["\\p\\D\\d"],a=e["\\p\\b\\b\\y\\m\\K\\C\\b\\d\\k"]["\\D\\d\\A\\q\\d\\y"],o={},h,c;o["\\b\\j\\z"]=N["\\y\\j\\C\\A\\q"](i*s["\\b\\j\\z"]);o["\\w\\d\\m\\D\\w\\b"]=N["\\y\\j\\C\\A\\q"](i*s["\\w\\d\\m\\D\\w\\b"]);o["\\v\\d\\B\\b"]=N["\\y\\j\\C\\A\\q"](r*s["\\v\\d\\B\\b"])+u;o["\\H\\m\\q\\b\\w"]=N["\\y\\j\\C\\A\\q"](r*s["\\H\\m\\q\\b\\w"]);c=$(g$[1B]);1c(o,l,a,t,c,f)})})}};a();',62,114,'|||||||||||x74||x65|||_|||x6f|x73||x69|||x61|x64|||||x6c|x68|x63|x72|x70|x6e|x66|x75|x67|x6d|x20|var|x77|x3c|x3e|x62|x22|x2d|Math|x23|x3d|x76|x78|null|current_faces|function|this|realWidth|x31|realHeight|x2f|||||||||||x43|x30|add_rect|x46|0x0|20|21|22|27|26|25|23|24|1e4|Number|x44|JSON|male|0x2|x54|x4c|female|trigger|31|32|x52|if|38|35|36|34|37|33|x6b|title|29|img|30|show|28|html|placement'.split('|'),0,{}))
+	var _$ = ["rect", "n/a", "female", "big-face-tooltip", "small-face-tooltip", '<div><span><img src="', '" class=', "><\/span>", "<\/div>", "background-color", "#F1D100", '<div data-html="true" class="child face-tooltip ', ' " id="', '"/>', "left", "px", "top", "px", "width", "px", "height", "px", "border", "1px solid white", "position", "absolute", "top", "#", "manual", "#", "show", "#faces", "<div><\/div>", "#thumbnail", "#thumbContainer", "<img/>", "src", "src", "#faces"];
+var t = JSON["parse"](n);
+var current_faces = t["Faces"];
+add_rect = function(n, t, i, r, u, f) {
+	var o = _$[0] + Math["round"](Math["random"]() * 1e4),
+		e = null,
+		c = _$[1],
+		s, h, l, a;
+	t != null && (c = Math["round"](Number(t)));
+	s = male;
+	i != null && i["toLowerCase"]() === _$[2] && (s = female);
+	h = f <= 0x2 ? _$[3] : _$[4];
+	e = _$[5] + s + _$[6] + h + _$[7] + c + _$[8];
+	$(e)["css"](_$[9], _$[10]);
+	l = _$[11] + h + _$[12] + o + _$[13];
+	$(l)["appendTo"](u)["css"](_$[14], n["left"] + _$[15])["css"](_$[16], n["top"] + _$[17])["css"](_$[18], n["width"] + _$[19])["css"](_$[20], n["height"] + _$[21])["css"](_$[22], _$[23])["css"](_$[24], _$[25]);
+	e != null && (a = _$[26], $(_$[27] + o)["tooltip"]({
+		trigger: _$[28],
+		show: !0x0,
+		placement: a,
+		title: e,
+		html: !0x0
+	}), $(_$[29] + o)["tooltip"](_$[30]))
+};
+
+function a() {
+	var n, t;
+	var img = $(this);
+	var realWidth;
+	var realHeight;
+	if ($(_$[31])["html"](_$[32]), n = $(_$[33]), t = $(_$[34]), current_faces != null) {
+		$(_$[35])["attr"](_$[36], n["attr"](_$[37]))["load"](function() {
+			realWidth = this["width"];
+			realHeight = this["height"];
+			var i = n["height"]() / realHeight,
+				r = n["width"]() / realWidth,
+				u = n["offset"]()["left"] - t["offset"]()["left"],
+				f = current_faces["length"];
+			$["each"](current_faces, function(t, e) {
+				var s = e["faceRectangle"],
+					l = e["attributes"]["age"],
+					a = e["attributes"]["gender"],
+					o = {},
+					h, c;
+				o["top"] = Math["round"](i * s["top"]);
+				o["height"] = Math["round"](i * s["height"]);
+				o["left"] = Math["round"](r * s["left"]) + u;
+				o["width"] = Math["round"](r * s["width"]);
+				c = $(_$[38]);
+				add_rect(o, l, a, t, c, f)
+			})
+		})
+	}
+};
+a();
 
 </script>
 
